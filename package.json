@@ -4,13 +4,21 @@
   "description": "A simple emoji based weather map.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: tests coming soon\" && exit 1"
   },
   "keywords": [
     "emoji",
     "weather",
     "map"
   ],
+  "repository" : { 
+    "type" : "git", 
+    "url" : "git@github.com:nigelhanlon/emoji-weather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nigelhanlon/emoji-weather",
+    "email": "nigel@mapwolf.net"
+  },
   "author": "Nigel Hanlon <nigel@mapwolf.net>",
   "license": "ISC",
   "dependencies": {

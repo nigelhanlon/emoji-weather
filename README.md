@@ -8,7 +8,7 @@ You can get a token by signing up for free at [openweathermap.org](https://openw
 
 The only available map at the moment is Ireland, but this can be extended by creating a new map in the `maps` folder. 
 In future it might be cool to integrate with Twitter, so beware the character limits (280 now?) when designing.
-
+```
 📘📘📘📘📘📗📗📗📘📘
 📘📘📘📗📗🌧📗📗📗📘
 📘📘📘📗📗📗📗📗🌧📘
@@ -21,7 +21,7 @@ In future it might be cool to integrate with Twitter, so beware the character li
 📘📗📗📗📗📗📗📗📗📘
 📘📗📗📗🌛📗📗☁️📘📘
 📘📘📗📗📘📘📘📘📘📘
-
+```
 ### Usage
 
 ```sh
