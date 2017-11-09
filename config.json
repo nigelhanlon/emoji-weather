@@ -1,6 +1,6 @@
 {
     "api": {
-        "token": "79e0080d43d2ce3bf73589c6ed4b9479",
+        "token": "YOUR OPEN WEATHER MAP TOKEN GOES HERE",
         "endpoint": "http://api.openweathermap.org/data/2.5/weather"
     },
     "icons": {
