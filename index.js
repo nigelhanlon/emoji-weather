@@ -35,7 +35,7 @@ function weatherToEmoji(data = {}) {
     case 7: return config.icons.fog;
     case 8: 
       if(weatherCode === 802) return config.icons.cloudy;
-      
+
       const currentHour = new Date().getHours();
       if(currentHour >= 6 && currentHour <= 18) {
         return config.icons.sun;
@@ -81,4 +81,10 @@ function makeWeatherMap(location) {
   }
 }
 
-makeWeatherMap('ireland');
+if(process.argv.length >= 3) {
+  const location = process.argv[2].toLowerCase();
+  makeWeatherMap(location);
+}
+else {
+  makeWeatherMap('ireland');
+}
