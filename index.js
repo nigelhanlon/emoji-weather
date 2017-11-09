@@ -3,17 +3,24 @@ const config = require('./config');
 const request = require('request-promise');
 
 function callAPI(location) {
-  return request({
+  const options = {
     uri: config.api.endpoint,
     qs: {
-      q: location,
       APPID: config.api.token
     },
     headers: {
         'User-Agent': 'Emoji Weather'
     },
     json: true
-  });
+  };
+  if(typeof location === 'number') {
+    options.qs.id = location;
+  }
+  else{
+    options.qs.q = location;
+  }
+
+  return request(options);
 }
 
 function weatherToEmoji(data = {}) {

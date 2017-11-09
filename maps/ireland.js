@@ -45,11 +45,11 @@ module.exports = {
       'Belfast,UK',
       'Cork,IE',
       'Dublin,IE',
-      'Galway,IE',
+      2964180,          // Galway
       'Letterkenny,IE',
-      'Mullingar,IE',
+      2962361,          // Mullingar
       'Sligo,IE',
-      'Wexford,IE'
+      2960992           // Waterford
     ];
    }
 }
