@@ -1,0 +1,19 @@
+{
+    "api": {
+        "token": "",
+        "endpoint": "http://api.openweathermap.org/data/2.5/weather"
+    },
+    "icons": {
+        "rain": "🌧",
+        "drizzle": "🌦",
+        "sun": "☀️",
+        "moon": "🌛",
+        "wind": "💨",
+        "thunder": "🌩",
+        "snow": "🌨",
+        "cloudy": "☁️",
+        "ice": "❄️",
+        "tornado": "🌪",
+        "extreme": "‼️"
+    }
+}
